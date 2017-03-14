@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block layout %}
+    <body>
+        <div class="container">
+            <header>
+                {% include "components/nav.html" %}
+            </header>
+            <article>
+                {% block body %}{% endblock %}
+            </article>
+            <footer>
+                <p>&copy; 2017 Company, Inc.</p>
+            </footer>
+        </div>
+    </body>
+{% endblock %}

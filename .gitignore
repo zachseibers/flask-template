@@ -1,0 +1,12 @@
+# Files
+pip-selfcheck.json
+
+# File Types
+*.DS_Store
+*.pyc
+*.Python
+
+# Folders
+/bin
+/include
+/lib

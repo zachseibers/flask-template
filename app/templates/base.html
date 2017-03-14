@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <title></title>
+
+	    <!-- Meta Stuff -->
+   		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Custom CSS -->
+	    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css' ) }}">
+	    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cover.css' ) }}"> -->
+	    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/starter-template.css' ) }}"> -->
+
+	    <!-- Load Bootstrap CSS CDN-->
+	    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <!-- Load Font-Awesome CSS CDN -->
+	    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	    <!-- Load Custon JS CDN -->
+	    <!-- <script type="text/javascript" src="{{ url_for('static', filename='js/core.js' ) }}"></script> -->
+
+	    <!-- Load JQuery JS CDN -->
+    	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <!-- Load Bootstrap JS CDN -->
+    	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   		
+   		<!-- Background image/color -->
+    	<style>
+	    	body {
+	    		/*background: url({{ url_for('static', filename='images/background.jpg') }}) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;*/
+
+	    		background-color: rgba(200, 200, 200, .5);	
+	    	}
+    	</style>
+	</head>
+    {% block layout %}{% endblock %}
+</html>
