@@ -1,1 +1,1 @@
-touching this file is for resetting the Dreamhost server.
+touching tmp/reset.txt is for restarting the Dreamhost server.
