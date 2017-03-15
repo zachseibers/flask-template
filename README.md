@@ -3,6 +3,8 @@
 
 Template file for new flask projects
 
+Checkout the live [demo](http://flask-template.timnummy.com/)
+
 **Setup Instructions:**
 
 1. Clone template project:
